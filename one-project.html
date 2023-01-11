@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="../../dist/fonts/">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+	 <title>One project</title>
+</head>
+<body>
+    <div class="one-project_wrapper">
+    <header class="one-project_header">
+        <div class="one-project_headerWrapper">
+            <div class="header-wrapper">
+    <div class="header-container">
+        <span class="header-logo"><a class="header-logo_link" href="main.html">LOGO</a></span>
+        <nav class="header-navigation">
+            <a href="projects.html" class="header-link">Projects</a>
+            <a href="about.html" class="header-link">About us</a>
+            <a href="404.html" class="header-link">Blog</a>
+            <a href="contact.html" class="header-link">Contacts</a>
+        </nav>
+        <div class="header-burger">
+            <div class="header-burger_lines">
+                <span class="header-burger_line"></span>
+                <span class="header-burger_line2"></span>
+            </div>
+            <span class="header-burger_title">Menu</span>
+        </div>
+        <span class="header-language">En</span>
+        <a href="pop-up.html" class="header-button">Send Request</a>
+    </div>
+</div>
+
+<div class="modal-menu">
+    <div class="modal-menu_wrapper">
+        <div class="modal-menu_container">
+           <div class="modal-menu_headerWrapper">
+            <div class="header-wrapper">
+                <div class="header-container">
+                    <span class="header-logo"><a class="header-logo_link" href="main.html">LOGO</a></span>
+                    <nav class="header-navigation">
+                        <a href="projects.html" class="header-link">Projects</a>
+                        <a href="about.html" class="header-link">About us</a>
+                        <a href="404.html" class="header-link">Blog</a>
+                        <a href="contact.html" class="header-link">Contacts</a>
+                    </nav>
+                    <div class="header-burger">
+                        <div class="modal-burger_lines">
+                            <span class="modal-burger_line"></span>
+                            <span class="modal-burger_line2"></span>
+                        </div>
+                        <span class="header-burger_title">Menu</span>
+                    </div>
+                    <span class="header-language">En</span>
+                    <a href="pop-up.html" class="header-button">Send Request</a>
+                </div>
+            </div>
+           </div>
+            <div class="burger-navigation_menu">
+                <a href="main.html" class="burger-navigation_menuItem">Home</a>
+                <a href="projects.html" class="burger-navigation_menuItem">Projects</a>
+                <a href="about.html" class="burger-navigation_menuItem">About us</a>
+                <a href="404.html" class="burger-navigation_menuItem">Blog</a>
+                <a href="contact.html" class="burger-navigation_menuItem">Contacts</a>
+            </div>
+            <a href="pop-up.html" class="modal-menu_button">Send Request</a>
+            <div class="introduction-footer">
+                <div class="introduction-footer_socialMedia">
+                    <a href="">Fb</a>
+                    <a href="">In</a>
+                    <a href="">Be</a>
+                </div>
+                <div class="introduction-footer_geo">
+                    <img class='geo-icon' src="img/geo-icon.svg" alt="">
+                    <span>Berlin</span>
+                    <img class='geo-arrow' src="img/geo-arrow.svg" alt="">
+                </div>
+                <div class="introduction-footer_contacts">
+                    <span class="footer_contacts_phone modal-burger_span">+380983527547</span>
+                    <span>E: info@gmail.com</span>
+                </div>
+             </div>
+        </div>
+      
+    </div>
+   </div>
+ 
+
+<script>
+    const lines = document.querySelector('.header-burger_lines');
+    const line = document.querySelector('.header-burger_line');
+    const line2 = document.querySelector('.header-burger_line2');
+    const menuBurger = document.querySelector('.modal-menu');
+    const header = document.querySelector('.header-burger_lines');
+    const modalLine = document.querySelector('.modal-burger_line');
+    const modalLine2 = document.querySelector('.modal-burger_line2');
+
+  
+    lines.addEventListener('click', () => {
+   /* line.style.transform = "rotate(-45deg)";
+    line2.style.transform = "rotate(45deg)";
+    line2.style.marginTop = '0px';
+    line.style.marginTop = '5px';*/
+     menuBurger.style.display = 'block';
+    })
+   
+</script>
+<script>
+    const closeW = document.querySelector('.modal-burger_lines');
+    const meneM = document.querySelector('.modal-menu');
+    closeW.addEventListener('click', () => {
+    meneM.style.display = 'none';
+   /* line.style.transform = "rotate(0deg)";
+    line2.style.transform = "rotate(0deg)";
+    line.style.marginTop = '8px';*/
+    })
+    </script>
+            <img src="img/one-project_headerBackground.png" alt="" class="one-project_headerBackground">
+            <img src="img/one-project_headerBackground-1024.png" alt="" class="one-project_headerBackground-1024">
+            <div class="one-project_headerInfo">
+                <h2 class="one-project_headerInfo_title">Residence <br class="one-project_headerInfo_title_br">by the lighthouse</h2>
+                <p class="one-project_headerInfo_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aliquam ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim 
+                    sed, ornare pretium velit.</p>
+                <div class="one-project_headerInfo_geo">
+                    <div class="one-project_headerInfo_geoItem">
+                        <img src="img/our-projects_geo-1img.svg" alt="" class="_geo-img">
+                        <span class="_geo-text">Lodz, Poland</span>
+                    </div>
+                    <div class="one-project_headerInfo_geoItem">
+                        <img src="img/our-projects_geo-2img.svg" alt="" class="_geo-img">
+                        <span class="_geo-text">16.10.2018</span>
+                    </div>
+                    <div class="one-project_headerInfo_geoItem">
+                        <img src="img/our-projects_geo-3img.svg" alt="" class="_geo-img">
+                        <span class="_geo-text">80 sq.m</span>
+                    </div>
+                </div>
+            </div>
+            <div class="one-project_header_socialMedia">
+                <span class="one-project_share">Share:</span>
+                <a href="contact.html" class="one-project_headerLink"><img src="img/our-projects_social-1img.svg" alt=""></a>
+                <a href="contact.html" class="one-project_headerLink"><img src="img/our-projects_social-2img.svg" alt=""></a>
+                <a href="contact.html" class="one-project_headerLink"><img src="img/our-projects_social-3img.svg" alt=""></a>
+                <a href="contact.html" class="one-project_headerLink"><img src="img/our-projects_social-4img.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <div class="icon-navigation">
+        <div class="icon-navigation_container">
+            <img src="img/icon-navigation_leftArrow.svg" alt="" class="icon-navigation_img">
+            <img src="img/icon-navigation_rightArrow.svg" alt="" class="icon-navigation_img">
+            <img src="img/icon-navigation_folder.svg" alt="" class="icon-navigation_img">
+            <img src="img/icon-navigation_book.svg" alt="" class="icon-navigation_img">
+            <img src="img/icon-navigation_doubleBook.svg" alt="" class="icon-navigation_img">
+        </div>
+       </div>
+    <main class="one-projects_main one-project_container">
+        <div class="one-projects_mainInfo">
+            <h2 class="one-projects_mainTitle">Donec et ipsum nec quam posuere maximus eu in erat. Duis laoreet finibus consectetur. </h2>
+            <p class="one-projects_mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida urna. Donec 
+                blandit sapien eu diam ullamcorper euismod. Nam tempus pellentesque ligula ut aliquam. Donec et ipsum nec quam posuere 
+                maximus eu in erat. Duis laoreet finibus consectetur. Nullam pulvinar ex sit amet leo gravida, sed mattis enim vehicula. 
+                Duis purus nisl, consectetur ut est non, placerat eleifend turpis. Duis auctor suscipit arcu. Aenean leo est, rutrum a 
+                eleifend eget, tempor nec urna. Proin finibus lobortis arcu dictum convallis. Ut fermentum eu magna vel laoreet. In 
+                lacus augue, malesuada id elit sit amet, varius imperdiet ex. Nullam blandit lobortis posuere:</p>
+            <a href="projects.html" class="one-projects_mainLink">Discover more</a>
+        </div>
+        <div class="one-projects_mainGallery">
+            <img src="img/our-projects-1img-1440.png" alt="" class="one-projects_galleryImg _one-projects_galleryImg-full">
+            <img src="img/our-projects-2img-1440.png" alt="" class="one-projects_galleryImg _one-projects_galleryImg-half">
+            <img src="img/our-projects-3img-1440.png" alt="" class="one-projects_galleryImg _one-projects_galleryImg-half">
+            <img src="img/our-projects-4img-1440.png" alt="" class="one-projects_galleryImg _one-projects_galleryImg-full">
+        </div>
+        <a href="404.html" class="one-projects_bottomLink">View more photo</a>
+        
+    </main>
+    <div class="one-projects_galleryFooter">
+       <p class="one-projects_galleryFooter-text">Lorem ipsum dolor <br class="gallery-footerBr">sit amet, consectetur adipiscing elit. </p>
+        <img src="img/gallery-footer_group.png" alt="" class="one-projects_galleryFooter_img">
+         <div class="one-projects_galleryFooter-request">
+            <p class="one-projects_request-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+                ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim 
+                sed, ornare pretium velit.</p>
+            <a href="pop-up.html" class="one-projects_request-button">Make request</a>
+        </div>
+    <h4 class="one-projects_bottomTitle_h4">Next project</h4>
+    <h2 class="one-projects_bottomTitle_h2">Perfect proportions</h2>
+    </div>
+    <div class="one-project_bottomImg one-project_container">
+        <img src="img/one-project_bootomImg-1440.png" alt="" class="one-project_bottomImg-1440">
+        <img src="img/one-project_bootomImg-1024.png" alt="" class="one-project_bottomImg-1024">
+    </div>
+    </div>
+</body>
+</html>

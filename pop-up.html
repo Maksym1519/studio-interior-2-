@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="../../dist/fonts/">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+	 <title>Pop-up</title>
+</head>
+<body>
+    <div class="pop-up_wrapper">
+        <div class="pop-up_close">
+            <span class="pop-up_closeLine"></span>
+        </div>
+        <div class="pop-up_form">
+          <div class="pop-up_form_body1">
+            <h2 class="pop-up_form_body1-title">Calculate the cost of work</h2>
+            <div class="input-body">
+                <div class="input-bodyLeft">
+                 <input type="text" placeholder="Name" class="input-body_input" onclick="this.placeholder=''">
+                 <input type="text" placeholder="Last name" class="input-body_input input-body_input_mobile" onclick="this.placeholder=''">
+                 <input type="text" placeholder="Phone" class="input-body_input" onclick="this.placeholder=''">
+                 <input type="text" placeholder="Email" class="input-body_input" onclick="this.placeholder=''">
+                </div>
+                <div class="input-bodyRight">
+                    <input type="text" placeholder="Last name" class="input-body_input _input-body_inputBlock" onclick="this.placeholder=''">
+                    <input type="text" placeholder="Your city" class="input-body_input" onclick="this.placeholder=''">
+                   <div class="inputType-wrapper"><input type="text" placeholder="Property type" class="input-body_input" onclick="this.placeholder=''"><img src="img/arrow-down.svg" class= "input-body_inputImg" alt=""></div>
+                </div>
+            </div>
+          
+            <input type="text" placeholder="Your comment" class="input-comment" onclick="this.placeholder=''">
+          </div>
+          <div class="pop-up_form_body2">
+            <h4 class="pop-up_form_body2_title">Area (m2)</h4>
+            <div class="pop-up_form_body2_scale">
+                   <div class="_body2_scale-item">
+                    <span class="_scale-item-numbers">to 50</span>
+                    <span class="_scale-item-circle"><img src="img/scale-dot.svg" alt=""></span>
+                </div>
+                <div class="_body2_scale-item">
+                    <span class="_scale-item-numbers">50-150</span>
+                    <span class="_scale-item-circle"><img src="img/scale-dot.svg" alt=""></span>
+                </div>
+                <div class="_body2_scale-item">
+                    <span class="_scale-item-numbers">150-250</span>
+                    <span class="_scale-item-circle"><img src="img/scale-dot.svg" alt=""></span>
+                </div>
+                <div class="_body2_scale-item _body2_scale-item-bottom">
+                    <span class="_scale-item-numbers">250-400</span>
+                    <span class="_scale-item-circle"><img src="img/scale-dot.svg" alt=""></span>
+                </div>
+                
+                   <div class="_body2_scale-item">
+                    <span class="_scale-item-numbers">400-600</span>
+                    <span class="_scale-item-circle"><img src="img/scale-dot.svg" alt=""></span>
+                </div>
+                <div class="_body2_scale-item">
+                    <span class="_scale-item-numbers">600-800</span>
+                    <span class="_scale-item-circle"><img src="img/scale-dot.svg" alt=""></span>
+                </div>
+                <div class="_body2_scale-item">
+                    <span class="_scale-item-numbers">800-1000</span>
+                    <span class="_scale-item-circle"><img src="img/scale-dot.svg" alt=""></span>
+                </div>
+                <div class="_body2_scale-item">
+                    <span class="_scale-item-numbers">1000+</span>
+                    <span class="_scale-item-circle"><img src="img/scale-dot.svg" alt=""></span>
+                </div>
+                
+                </div>
+                <div class="pop-up_form_body2_line"></div>
+                <div class="pop-up_form_body2_line2"></div>
+            
+           
+            <div class="attach-file">
+                <div class="attach-file_uplpading-form">
+                    <img src="img/attach-file.svg" alt="" class="_uploading-form_button">
+                    <div class="uploading-form_decscription">
+                        <span class="uploading-form_decscriptionTitle">Attach your file</span>
+                        <span class="uploading-form_decscriptionText">File size not more than 10 MB</span>
+                    </div>
+                    <a href="404.html" class="uploading-form_decscriptionButton">Send Request</a>
+                </div>
+
+            </div>
+            <p class="pop-up_form_body2_bottomText">It is a long established fact that a reader will be distracted 
+                by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that 
+                it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                 making it look like readable English.</p>
+          </div>
+        </div>
+    </div>
+    <script>
+        const closeP = document.querySelector('.pop-up_close');
+        closeP.addEventListener('click', () => {
+            window.history.back()
+        })
+    </script>
+  
+</body>
+</html>

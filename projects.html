@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="../../dist/fonts/">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+	 <title>Projects</title>
+</head>
+<body>
+    <div class="projects-wrapper">
+       <div class="projectsHeader-wrapper projects-container"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header-dark</title>
+</head>
+<body>
+    <div class="header-dark_wrapper">
+       <a class="darkHeader-logo_link" href="main.html"><img src="img/header-dark_logo.svg" alt="" class="header-dark_logo"></a>
+        <nav class="header-dark_navigation">
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About us</a>
+            <a href="404.html">Blog</a>
+            <a href="contact.html">Contacts</a>
+        </nav>
+        <div class="header-dark_burger">
+            <div class="headerDark-burger_lines">
+                <span class="headerDark-burger_line"></span>
+                <span class="headerDark-burger_line2"></span>
+            </div>
+            <span class="headerDark-burger_title">Menu</span>
+        </div>
+        <ul class="header-dark_language">
+            <li>En</li>
+        </ul>
+        <a href="pop-up.html" class="header-dark_button">Send Request</a>
+    </div>
+    <!---------------------------------------------------------------------------------------------------------->
+    <div class="modal-menu">
+        <div class="modal-menu_wrapper">
+            <div class="modal-menu_container">
+                <div class="header-wrapper">
+                    <div class="header-container">
+                        <span class="header-logo"><a class="header-logo_link" href="main.html">LOGO</a></span>
+                        <nav class="header-navigation">
+                            <a href="projects.html" class="header-link">Projects</a>
+                            <a href="about.html" class="header-link">About us</a>
+                            <a href="404.html" class="header-link">Blog</a>
+                            <a href="contact.html" class="header-link">Contacts</a>
+                        </nav>
+                        <div class="header-burger">
+                            <div class="modal-burger_lines">
+                                <span class="modal-burger_line"></span>
+                                <span class="modal-burger_line2"></span>
+                            </div>
+                            <span class="header-burger_title">Menu</span>
+                        </div>
+                        <span class="header-language">En</span>
+                        <a href="pop-up.html" class="header-button">Send Request</a>
+                    </div>
+                </div>
+               
+                <div class="burger-navigation_menu">
+                    <a href="main.html" class="burger-navigation_menuItem">Home</a>
+                    <a href="projects.html" class="burger-navigation_menuItem">Projects</a>
+                    <a href="about.html" class="burger-navigation_menuItem">About us</a>
+                    <a href="404.html" class="burger-navigation_menuItem">Blog</a>
+                    <a href="contact.html" class="burger-navigation_menuItem">Contacts</a>
+                </div>
+                <a href="" class="modal-menu_button">Send Request</a>
+                <div class="introduction-footer">
+                    <div class="introduction-footer_socialMedia">
+                        <a href="">Fb</a>
+                        <a href="">In</a>
+                        <a href="">Be</a>
+                    </div>
+                    <div class="introduction-footer_geo">
+                        <img class='geo-icon' src="img/geo-icon.svg" alt="">
+                        <span>Berlin</span>
+                        <img class='geo-arrow' src="img/geo-arrow.svg" alt="">
+                    </div>
+                    <div class="introduction-footer_contacts">
+                        <span class="footer_contacts_phone modal-burger_span">+380983527547</span>
+                        <span>E: info@gmail.com</span>
+                    </div>
+                 </div>
+            </div>
+          
+        </div>
+       </div>
+    <script>
+        const lines = document.querySelector('.headerDark-burger_lines');
+        const line = document.querySelector('.headerDark-burger_line');
+        const line2 = document.querySelector('.headerDark-burger_line2');
+        const menuBurger = document.querySelector('.modal-menu');
+        const header = document.querySelector('.header-burger_lines');
+        const modalLine = document.querySelector('.modal-burger_line');
+        const modalLine2 = document.querySelector('.modal-burger_line2');
+    
+      
+        lines.addEventListener('click', () => {
+       /* line.style.transform = "rotate(-45deg)";
+        line2.style.transform = "rotate(45deg)";
+        line2.style.marginTop = '0px';
+        line.style.marginTop = '5px';*/
+         menuBurger.style.display = 'block';
+        })
+       
+    </script>
+    <script>
+        const closeW = document.querySelector('.modal-burger_lines');
+        const meneM = document.querySelector('.modal-menu');
+        closeW.addEventListener('click', () => {
+        meneM.style.display = 'none';
+       /* line.style.transform = "rotate(0deg)";
+        line2.style.transform = "rotate(0deg)";
+        line.style.marginTop = '8px';*/
+        })
+        </script>
+</body>
+</html></div>
+    <header class="projects-header projects-container">
+       
+       <div class="projects_headerBody">
+        <h2 class="projects_headerTitle">Our Projects</h2>
+            <div class="projects_headerNavigation-body">
+            <p class="projects_headerNavigation-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aliquam ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim 
+                sed, ornare pretium velit.</p>
+            <nav class="projects_headerNavigation">
+                <a href="404.html" class="projects_headerNavigation_link">House</a>
+                <a href="404.html" class="projects_headerNavigation_link">Apartments</a>
+                <a href="404.html" class="projects_headerNavigation_link">Commerce</a>
+                <a href="404.html" class="projects_headerNavigation_link">Architecture</a>
+            </nav>
+        </div>
+           <!--<ul class="projects_headerNavigation-mobile">
+                <li class="_headerNavigationLink-first"><a href="" class="_headerNavigationLink-first">Apartments</a></li>
+                <li class="_headerNavigationLink-mobile"><a href=""  class="_headerNavigationLink-mobile">House</a></li>
+                <li class="_headerNavigationLink-mobile"><a href=""  class="_headerNavigationLink-mobile">Commerce</a></li>
+                <li class="_headerNavigationLink-mobile"><a href=""  class="_headerNavigationLink-mobile">Architecture</a></li>
+                </ul>-->
+                <div class="latest-news_headerNavigation-mobile">
+                    <a href="#" class="_headerNavigationLink-first">Apartments</a>
+                    <div class="_headerNavigationLink-wrapper">
+                    <a href="projects.html"  class="_headerNavigationLink-mobile _mobile1">All</a>
+                    <a href="404.html"  class="_headerNavigationLink-mobile _mobile2">Blog</a>
+                    <a href="news.html"  class="_headerNavigationLink-mobile _mobile3">News</a>
+                    <a href="404.html"  class="_headerNavigationLink-mobile _mobile4">Advice from the designer</a>
+                    <div class="closeList"><span class="closeList-line1"></span><span class="closeList-line2"></span></div>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <main class="projects-main projects-container">
+        <div class="projects-gallery-1440">
+            
+            <div class="projects-galleryitemWrapper_small">
+                <img src="img/projects-gallery_1img-1440.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper_small">
+            <img src="img/projects-gallery_2img-1440.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_3img-1440.png" alt="" class="projects-gallery_img">
+            </div>
+            <div class="projects-galleryitemWrapper_small">
+            <img src="img/projects-gallery_4img-1440.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper_small">
+            <img src="img/projects-gallery_5img-1440.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_6img-1440.png" alt="" class="projects-gallery_img">
+            </div>
+        </div>
+        <div class="projects-gallery-1024">
+            <div class="projects-galleryitemWrapper">
+                <img src="img/projects-gallery_1img-1024.png" alt="" class="_projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_2img-1024.png" alt="" class="_projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper  _itemFull">
+            <img src="img/projects-gallery_3img-1024.png" alt="" class="projects-gallery_img">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_4img-1024.png" alt="" class="_projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_5img-1024.png" alt="" class="_projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper  _itemFull">
+            <img src="img/projects-gallery_6img-1024.png" alt="" class="projects-gallery_img">
+            </div>
+        </div>
+        <div class="projects-gallery-768">
+            <div class="projects-galleryitemWrapper">
+                <img src="img/projects-gallery_1img-768.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_2img-768.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_3img-768.png" alt="" class="projects-gallery_img">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_4img-768.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_5img-768.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_6img-768.png" alt="" class="projects-gallery_img">
+            </div>
+        </div>
+        <div class="projects-gallery-375">
+            <div class="projects-galleryitemWrapper">
+                <img src="img/projects-gallery_1img-375.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_2img-375.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_3img-375.png" alt="" class="projects-gallery_img">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_4img-375.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_5img-375.png" alt="" class="projects-gallery_img _projects-gallery_imgSmall">
+            </div>
+            <div class="projects-galleryitemWrapper">
+            <img src="img/projects-gallery_6img-375.png" alt="" class="projects-gallery_img">
+            </div>
+        </div>
+        <div class="projects_galleryFooter">
+            <p class="projects_galleryFooter-text">Lorem ipsum dolor <br class="gallery-footerBr">sit amet, consectetur adipiscing elit. </p>
+             <img src="img/gallery-footer_group.png" alt="" class="projects_galleryFooter_img">
+              <div class="projects_galleryFooter-request">
+                 <p class="projects_request-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+                     ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim 
+                     sed, ornare pretium velit.</p>
+                 <a href="pop-up.html" class="projects_request-button">Make request</a>
+             </div>
+           </div>
+    </main>
+    <div class="main-footer"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+</head>
+<body>
+    <div class="footer-wrapper">
+       <div class="footer-container">
+        <span class="footer-allRights">© Copyright 2018. All rights reserved</span>
+        <div class="footer-logoWrapper">
+            <span class="footer-aboutLove">Made with love in</span>
+            <div class="footer-words_wrapper">
+            <span class="footer-first">The First</span>
+            <span class="footer-last">The Last.</span>
+            </div>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
+</div>
+    </div>
+   <script>
+        const projectsWrapper = document.querySelector('.projects-wrapper');
+        const firstLoveColor = document.querySelector('.footer-first');
+        const lastColor = document.querySelector('.footer-last');
+        if(projectsWrapper) {
+            firstLoveColor.style.color = '#080808';
+            lastColor.style.color = '#080808';
+            lastColor.style.opacity = '0.4';
+             }
+    </script>
+  <script>
+    const menuOpen = document.querySelector('._headerNavigationLink-first');
+    const menuList1 = document.querySelector('._mobile1');
+    const menuList2 = document.querySelector('._mobile2');
+    const menuList3 = document.querySelector('._mobile3');
+    const menuList4 = document.querySelector('._mobile4');
+    const closeList = document.querySelector('.closeList ');
+    const itemLink = document.querySelector('._headerNavigationLink-wrapper');
+   
+
+    menuOpen.addEventListener('click', () => {
+        menuList1.style.display = 'flex';
+        menuList2.style.display = 'flex';
+        menuList3.style.display = 'flex';
+        menuList4.style.display = 'flex';
+        itemLink.style.display = 'flex';
+        })
+        closeList.addEventListener('click', () => {
+            itemLink.style.display = 'none';
+              })
+     </script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="../../dist/fonts/">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+	 <title>One-News</title>
+</head>
+<body>
+    <div class="news-wrapper">
+       
+        <div class="news-container">
+            <section class="header-dark">
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header-dark</title>
+</head>
+<body>
+    <div class="header-dark_wrapper">
+       <a class="darkHeader-logo_link" href="main.html"><img src="img/header-dark_logo.svg" alt="" class="header-dark_logo"></a>
+        <nav class="header-dark_navigation">
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About us</a>
+            <a href="404.html">Blog</a>
+            <a href="contact.html">Contacts</a>
+        </nav>
+        <div class="header-dark_burger">
+            <div class="headerDark-burger_lines">
+                <span class="headerDark-burger_line"></span>
+                <span class="headerDark-burger_line2"></span>
+            </div>
+            <span class="headerDark-burger_title">Menu</span>
+        </div>
+        <ul class="header-dark_language">
+            <li>En</li>
+        </ul>
+        <a href="pop-up.html" class="header-dark_button">Send Request</a>
+    </div>
+    <!---------------------------------------------------------------------------------------------------------->
+    <div class="modal-menu">
+        <div class="modal-menu_wrapper">
+            <div class="modal-menu_container">
+                <div class="header-wrapper">
+                    <div class="header-container">
+                        <span class="header-logo"><a class="header-logo_link" href="main.html">LOGO</a></span>
+                        <nav class="header-navigation">
+                            <a href="projects.html" class="header-link">Projects</a>
+                            <a href="about.html" class="header-link">About us</a>
+                            <a href="404.html" class="header-link">Blog</a>
+                            <a href="contact.html" class="header-link">Contacts</a>
+                        </nav>
+                        <div class="header-burger">
+                            <div class="modal-burger_lines">
+                                <span class="modal-burger_line"></span>
+                                <span class="modal-burger_line2"></span>
+                            </div>
+                            <span class="header-burger_title">Menu</span>
+                        </div>
+                        <span class="header-language">En</span>
+                        <a href="pop-up.html" class="header-button">Send Request</a>
+                    </div>
+                </div>
+               
+                <div class="burger-navigation_menu">
+                    <a href="main.html" class="burger-navigation_menuItem">Home</a>
+                    <a href="projects.html" class="burger-navigation_menuItem">Projects</a>
+                    <a href="about.html" class="burger-navigation_menuItem">About us</a>
+                    <a href="404.html" class="burger-navigation_menuItem">Blog</a>
+                    <a href="contact.html" class="burger-navigation_menuItem">Contacts</a>
+                </div>
+                <a href="" class="modal-menu_button">Send Request</a>
+                <div class="introduction-footer">
+                    <div class="introduction-footer_socialMedia">
+                        <a href="">Fb</a>
+                        <a href="">In</a>
+                        <a href="">Be</a>
+                    </div>
+                    <div class="introduction-footer_geo">
+                        <img class='geo-icon' src="img/geo-icon.svg" alt="">
+                        <span>Berlin</span>
+                        <img class='geo-arrow' src="img/geo-arrow.svg" alt="">
+                    </div>
+                    <div class="introduction-footer_contacts">
+                        <span class="footer_contacts_phone modal-burger_span">+380983527547</span>
+                        <span>E: info@gmail.com</span>
+                    </div>
+                 </div>
+            </div>
+          
+        </div>
+       </div>
+    <script>
+        const lines = document.querySelector('.headerDark-burger_lines');
+        const line = document.querySelector('.headerDark-burger_line');
+        const line2 = document.querySelector('.headerDark-burger_line2');
+        const menuBurger = document.querySelector('.modal-menu');
+        const header = document.querySelector('.header-burger_lines');
+        const modalLine = document.querySelector('.modal-burger_line');
+        const modalLine2 = document.querySelector('.modal-burger_line2');
+    
+      
+        lines.addEventListener('click', () => {
+       /* line.style.transform = "rotate(-45deg)";
+        line2.style.transform = "rotate(45deg)";
+        line2.style.marginTop = '0px';
+        line.style.marginTop = '5px';*/
+         menuBurger.style.display = 'block';
+        })
+       
+    </script>
+    <script>
+        const closeW = document.querySelector('.modal-burger_lines');
+        const meneM = document.querySelector('.modal-menu');
+        closeW.addEventListener('click', () => {
+        meneM.style.display = 'none';
+       /* line.style.transform = "rotate(0deg)";
+        line2.style.transform = "rotate(0deg)";
+        line.style.marginTop = '8px';*/
+        })
+        </script>
+</body>
+</html>
+                <div class="header-dark_description">
+                    <div class="header-dark_textBody">
+                        <h2 class="header-dark_title">Antrax IT - Italian factory for the production</h2>
+                        <p class="header-dark_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida urna. 
+                            Donec blandit sapien eu diam ullamcorper euismod. Nam tempus pellentesque ligula ut aliquam. Donec et ipsum 
+                            nec quam posuere maximus eu in erat. Duis laoreet finibus consectetur. Nullam pulvinar ex sit amet leo gravida,
+                             sed mattis enim vehicula. Duis purus nisl, consectetur ut est non, placerat eleifend turpis. Duis auctor suscipit arcu.
+                              Aenean leo est, rutrum a eleifend eget, tempor nec urna. Proin finibus lobortis arcu dictum convallis. Ut fermentum 
+                              eu magna vel laoreet. In lacus augue, malesuada id elit sit amet, 
+                            varius imperdiet ex. Nullam blandit lobortis posuere.</p>
+                    </div>
+                    <div class="header-dark_socialMedia">
+                        <span class="header-dark_share">Share:</span>
+                        <a href="contact.html" class="header-dark_link"><img src="img/header-dark_facebook.svg" alt=""></a>
+                        <a href="contact.html" class="header-dark_link"><img src="img/header-dark_twitter.svg" alt=""></a>
+                        <a href="contact.html" class="header-dark_link"><img src="img/header-dark_linkdin.svg" alt=""></a>
+                        <a href="contact.html" class="header-dark_link"><img src="img/header-dark_linkdin2.svg" alt=""></a>
+                    </div>
+                      </div>
+                      <img src="img/header-dark_img.png" alt="" class="header-dark_img">
+                      <img src="img/one-news_1img-375.png" alt="" class="header-dark_img-375">
+
+            </section>
+            <section class="news-main">
+                <div class="news-main_wrapper">
+                    <div class="news-main_container">
+                        <div class="news-main_textContainer">
+                        <h4 class="news-main_title">Donec et ipsum nec quam posuere maximus eu in erat. Duis laoreet finibus consectetur. </h4>
+                        <p class="news-main_text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida urna. Donec blandit 
+                            sapien eu diam ullamcorper euismod. Nam tempus pellentesque ligula ut aliquam. Donec et ipsum nec quam posuere
+                             maximus eu in erat. Duis laoreet finibus consectetur. Nullam pulvinar ex sit amet leo gravida, sed mattis enim 
+                             vehicula. Duis purus nisl, consectetur ut est non, placerat eleifend turpis. Duis auctor suscipit arcu. Aenean 
+                             leo est, rutrum a eleifend eget, tempor nec urna. Proin finibus lobortis arcu dictum convallis. Ut fermentum eu 
+                             magna vel laoreet. In lacus augue, malesuada id elit sit amet, varius imperdiet ex. Nullam blandit lobortis posuere:</p>
+                        <ul class="news-main_list">
+                            <li>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                            <li>2. Cras vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod.</li>
+                            <li>3. Nam tempus pellentesque ligula ut aliquam. </li>
+                            <li>4. Donec et ipsum nec quam posuere maximus eu in erat.</li>
+                            <li>5. Duis laoreet finibus consectetur. </li>
+                        </ul>
+                        <p class="news-main_text2">Aliquam iaculis ac urna at consequat. Pellentesque fermentum tellus eu nisi 
+                            viverra gravida. Sed suscipit vestibulum accumsan. Sed ac magna id sem hendrerit convallis quis a magna. 
+                            Mauris eget ornare est. Morbi metus justo, posuere vel semper semper, eleifend ut purus. Morbi cursus
+                             consequat nibh, a feugiat felis tempor vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                              Nam sodales orci nisl, in lacinia risus rhoncus a. Praesent consectetur egestas risus, id consectetur felis.</p>
+                        </div>
+                              <div class="news-main_imgBody">
+                        <img src="img/news-main_1img-1440.png" alt="" class="news-main_img-1440">
+                        <img src="img/news-main_1img-375.png" alt="" class="news-main_img-375">
+                        <img src="img/news-main_2img-1440.png" alt="" class="news-main_img-1440 news-main_imgSmall-1440">
+                        <img src="img/news-main_3img-1440.png" alt="" class="news-main_img-1440 news-main_imgSmall-1440">
+                              </div>
+                              <div class="news-main_textBottomContainer">
+                                <h4 class="news-main_textBottomTitle">Duis laoreet finibus consectetur. </h4>
+                                <p class="news-main_bottomText1">Duis laoreet finibus consectetur. Nullam pulvinar ex sit amet leo gravida, 
+                                    sed mattis enim vehicula. Duis purus nisl, consectetur ut est non, placerat eleifend turpis. Duis auctor 
+                                    suscipit arcu. Aenean leo est, rutrum a eleifend eget, tempor nec urna. Proin finibus lobortis arcu dictum convallis. 
+                                    Ut fermentum eu magna vel laoreet. In lacus augue, malesuada id elit sit amet, varius imperdiet ex. Nullam blandit 
+                                    lobortis posuere:</p>
+                                <ul class="news-main_bottomList">
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                    <li>Cras vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod.</li>
+                                    <li>Nam tempus pellentesque ligula ut aliquam. </li>
+                                    <li>Donec et ipsum nec quam posuere maximus eu in erat.</li>
+                                </ul>
+                                <p class="news-main_bottomText2">Mauris eget ornare est. Morbi metus justo, posuere vel semper semper, eleifend ut purus. Morbi 
+                                    cursus consequat nibh, a feugiat felis tempor vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sodales
+                                     orci nisl, in lacinia risus rhoncus a. </p>
+                              </div>
+                              <div class="news-main_socialMedia">
+                                <span class="news-main__share">Share:</span>
+                                <a href="" class="header-dark_link"><img src="img/header-dark_facebook.svg" alt=""></a>
+                                <a href="" class="header-dark_link"><img src="img/header-dark_twitter.svg" alt=""></a>
+                                <a href="" class="header-dark_link"><img src="img/header-dark_linkdin.svg" alt=""></a>
+                                <a href="" class="header-dark_link"><img src="img/header-dark_linkdin2.svg" alt=""></a>
+                            </div>
+                              <hr class="news-main_bottomLine">
+                            
+                    </div>
+                </div>
+            </section>
+                   
+        </div>
+        <section class="news-latest-news">
+            <div class="news-latest-news_wrapper">
+                <div class="news-latest-news_container">
+                    <h3 class="news-latest-news_title">Our latest news</h3>
+                    <div class="image-slider swiper-container">
+                      <div class="swiper-wrapper swiper-wrapper_news">
+                        <div class="swiper-slide one-news_imgCard">
+                            <div class="swiper-slider_oneNews"><img src="img/latest-news_1img-1440.png" alt="" class="latest-news_img"></div>
+                            <p class="one-news_imgCard_name">Antrax IT - Italian factory for the production of radiators</p>
+                            <p class="one-news_imgCard_date">01 January 2019</p>
+                            </div>
+                            <div class="swiper-slide one-news_imgCard">
+                        <div class="swiper-slide swiper-slider_oneNews"><img src="img/latest-news_2img-1440.png" alt="" class="latest-news_img"></div>
+                        <p class="one-news_imgCard_name">Antrax IT - Italian factory for the production of radiators</p>
+                        <p class="one-news_imgCard_date">01 January 2019</p>
+                            </div>
+                             <div class="swiper-slide one-news_imgCard">
+                        <div class="swiper-slide swiper-slider_oneNews"><img src="img/latest-news_3img-1440.png" alt="" class="latest-news_img"></div>
+                         <p class="one-news_imgCard_name">Antrax IT - Italian factory for the production of radiators</p>
+                        <p class="one-news_imgCard_date">01 January 2019</p>
+                             </div>
+                             <div class="swiper-slide one-news_imgCard">
+                        <div class="swiper-slide swiper-slider_oneNews"><img src="img/latest-news_1img-1440.png" alt="" class="latest-news_img"></div>
+                         <p class="one-news_imgCard_name">Antrax IT - Italian factory for the production of radiators</p>
+                        <p class="one-news_imgCard_date">01 January 2019</p>
+                             </div>
+                             <div class="swiper-slide one-news_imgCard">
+                        <div class="swiper-slide swiper-slider_oneNews"><img src="img/latest-news_2img-1440.png" alt="" class="latest-news_img"></div>
+                         <p class="one-news_imgCard_name">Antrax IT - Italian factory for the production of radiators</p>
+                        <p class="one-news_imgCard_date">01 January 2019</p>
+                             </div>
+                              <div class="swiper-slide one-news_imgCard">
+                        <div class="swiper-slide swiper-slider_oneNews"><img src="img/latest-news_3img-1440.png" alt="" class="latest-news_img"></div>
+                        <p class="one-news_imgCard_name">Antrax IT - Italian factory for the production of radiators</p>
+                        <p class="one-news_imgCard_date">01 January 2019</p>
+                              </div>
+                               <div class="swiper-slide one-news_imgCard">
+                        <div class="swiper-slide swiper-slider_oneNews"><img src="img/latest-news_1img-1440.png" alt="" class="latest-news_img"></div>
+                         <p class="one-news_imgCard_name">Antrax IT - Italian factory for the production of radiators</p>
+                        <p class="one-news_imgCard_date">01 January 2019</p>
+                               </div>
+                      </div>
+                        
+                      </div>
+
+                    </div>
+
+                </div>
+               <div class="main-footer"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+</head>
+<body>
+    <div class="footer-wrapper">
+       <div class="footer-container">
+        <span class="footer-allRights">© Copyright 2018. All rights reserved</span>
+        <div class="footer-logoWrapper">
+            <span class="footer-aboutLove">Made with love in</span>
+            <div class="footer-words_wrapper">
+            <span class="footer-first">The First</span>
+            <span class="footer-last">The Last.</span>
+            </div>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
+</div>   
+</section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>new Swiper('.image-slider')</script>
+    <script>
+        const oneNewsWrapper = document.querySelector('.news-wrapper');
+        const firstLoveColor = document.querySelector('.footer-first');
+        const lastColor = document.querySelector('.footer-last');
+        if(oneNewsWrapper) {
+            firstLoveColor.style.color = '#080808';
+            lastColor.style.color = '#080808';
+            lastColor.style.opacity = '0.4'
+        }
+    </script>
+</body>
+</html>
