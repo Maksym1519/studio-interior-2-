@@ -21,6 +21,13 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "Raleway-ExtraBold";
+  font-display: swap;
+  src: url("../fonts/fonts/Raleway-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
   font-family: "Montserrat-medium";
   font-display: swap;
   src: url("../fonts/Montserrat-Medium.woff") format("woff");
